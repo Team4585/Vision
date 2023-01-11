@@ -97,4 +97,13 @@ public class VisionJoystick extends HuskyJoystick{
   public Boolean triggerReleaseEvent(){
     return buttonReleaseEvent(TRIGGER_BUTTON);
   }
+
+
+  public boolean button5Pushed(){
+    return buttonPressEvent(4);
+  }
+
+  public boolean button4Pushed(){
+    return buttonPressEvent(3);
+  }
 }
